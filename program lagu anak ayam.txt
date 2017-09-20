@@ -1,0 +1,13 @@
+program LaguAnakAyam;
+var
+a:integer = 10;
+begin
+writeln('Tek kotek Kotek Anak Ayam Turun Berkotek  ');
+repeat
+writeln('Anak Ayam Turun ',a);
+a:=a-1;
+writeln('Mati satu Tinggal ',a);
+until a<= 1;
+writeln('Anak Ayam Turun',a);
+writeln('Mati Satu Tinggal Induknya.');
+end.
