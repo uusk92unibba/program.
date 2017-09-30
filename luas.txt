@@ -1,0 +1,17 @@
+program rumusluas_persegipanjang;
+uses crt;
+var
+lebar : integer;
+panjang : integer;
+luas : integer;
+begin
+clrscr;
+write('masukan:');
+readln(panjang);
+write('masukan Lebar:');
+readln(lebar);
+writeln;
+luas:=panjang*lebar;
+writeln('luas persegi panjang=',luas);
+readln;
+end.
